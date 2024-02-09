@@ -1,0 +1,14 @@
+[package]
+name = "rust8"
+description = "Library for emulating the Chip8 system"
+license = "MIT"
+version = "0.2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bitvec = { version = "1.0.1", features = [] }
+num_enum = "0.7.2"
+rand = "0.8.5"
+thiserror = "1.0.56"

@@ -1,3 +1,7 @@
+pub mod parser;
+
+use crate::data_register::DataRegister;
+
 #[derive(Debug)]
 pub enum Instruction {
     ExecuteMachineLanguageSubroutine {
